@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Harvest Yard;
+    src: url(Harvest\ Yard.otf), format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: Harvest Yard;
+}
+@font-face {
+    font-family: Caviar Dreams;
+    src: url(CaviarDreams_Bold.ttf), format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-size: large;
+    font-family: Caviar Dreams;
+}
+h1 {
+    text-align: center;
+    font-family: Harvest Yard;
+    font-size: clamp(1.2rem, 2.2vw, 4rem);
+}
+#titulo{
+    text-decoration: none;
+    color: #2E71F0;
+    font-size: clamp(1.5rem, 3vw, 6rem);
+    font-weight: normal;
+    margin: 0;
+    padding: 12px 1px 1px 1px;
+}
+h2{
+    font-family: Caviar Dreams;
+}
+#grande{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: dodgerblue;
+}
+#faleconosco{
+    text-align: center;
+    font-size: xx-large;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    font-family: cursive;
+}
